@@ -33,6 +33,7 @@ cd Train_Qwen3_LoRA
 ### 2. Устанавление зависимостей
 ```shell
 py -m venv venv-train
+venv-train\Scripts\activate
 pip install -r requirements.txt
 ```
 

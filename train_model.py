@@ -20,7 +20,7 @@ def tokenize_function(examples):
         padding=False,
     )
 
-df = pd.read_csv(config.DATA_PATH).head(100)
+df = pd.read_csv(config.DATA_PATH)
 
 texts = []
 for _, row in df.iterrows():
